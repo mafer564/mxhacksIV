@@ -20,6 +20,21 @@ p {
   line-height: 2rem;
 }
 
+.bg-white{
+  background-color: white;
+  opacity: 0.6;
+  padding: 5%;
+  border-radius: 5%;
+}
+
+.light{
+  color: black;
+}
+
+.logo{
+  /*padding: 50%;*/
+}
+
 .button-collapse {
   color: #26a69a;
 }
@@ -59,3 +74,17 @@ p {
 footer.page-footer {
   margin: 0;
 }
+@media only screen and (max-width : 480px) {
+    .parallax-container{
+      min-height: 700px;
+    }
+    .bg-white {
+      margin-top: 0% !important;
+      padding: 0% !important;
+    }
+    .parallax-container .section {
+      top: 0%;
+    }
+
+    Contact GitHub API Training Shop Blog About 
+
